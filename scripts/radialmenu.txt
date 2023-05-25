@@ -176,12 +176,12 @@
         }
         "SouthEast"
         {
-            "command"   "say_team bots warp"
+            "command"   "say_team bots warp;"
             "text"      "L4B/All Bots Warp"
         }
         "South"
         {
-            "command"   "say_team bots heal"
+            "command"   "say_team bots heal;"
             "text"      "L4B/All Bots Heal"
         }
         "SouthWest"
