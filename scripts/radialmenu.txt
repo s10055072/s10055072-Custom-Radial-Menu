@@ -1,0 +1,283 @@
+"RadialMenu"
+{
+	//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"#L4D_rosetta_look"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"#L4D_rosetta_letsgo"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerLeadOn"
+			"text"		"#L4D_rosetta_youtakelead"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerEmphaticGo"
+			"text"		"GO"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNiceJob"
+			"text"		"#L4D_rosetta_nicejob"
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"#L4D_rosetta_waithere"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerToTheRescue"
+			"text"		"#L4D_rosetta_totherescue"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerWarnCareful"
+			"text"		"#L4D_rosetta_becareful"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThisWay"
+			"text"		"This Way"
+		}	
+	}
+
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"#L4D_rosetta_ready"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLaugh"
+			"text"		"#L4D_rosetta_laugh"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerTaunt"
+			"text"		"#L4D_rosetta_taunt"
+		}
+
+		"East"
+		{
+			"command"	"vocalize PlayerNegative"
+			"text"		"#L4D_rosetta_negative"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"#L4D_rosetta_no"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"#L4D_rosetta_sorry"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"#L4D_rosetta_yes"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"#L4D_rosetta_hurrah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"#L4D_rosetta_thankyou"
+		}
+	}
+
+	//--------------------------------------------------------------
+	//--------------------------------------------------------------
+	"ASRMb"
+	{
+		"Center"
+		{
+			"command"	"show_menu menu"
+			"text"		"Admin Menu"
+		}
+		"North"
+		{
+			"command"	"scripted_user_func noclip"
+			"text"		"NoClip"
+		}
+		"NorthEast"
+		{
+			"command"	"scripted_user_func revive,all"
+			"text"		"Revive All"
+		}	
+		"East"
+		{
+			"command"	"scripted_user_func god"
+			"text"		"God Mode"
+		}	
+		"SouthEast"
+		{
+			"command"	"scripted_user_func warp,all"
+			"text"		"Warp All"
+		}	
+		"South"
+		{
+			"command"	"scripted_user_func ammo,all,500"
+			"text"		"Ammo"
+		}
+		"SouthWest"
+		{
+			"command"	"scripted_user_func defib,all"
+			"text"		"Defib All"
+		}
+		"West"
+		{
+			"command"	"scripted_user_func god,all"
+			"text"		"God Mode All"
+		}
+		"NorthWest"
+		{
+			"command"	"scripted_user_func adrenaline,all,10"
+			"text"		"Adrenaline for 10 Sec"
+		}	
+	}
+	
+    "Panic,Survivor,Alive"
+    {
+        "Center"
+        {
+            "command"   "vocalize RevivedByDefibrillator"
+            "text"      "Gasp"
+        }
+        "North"
+        {
+            "command"   "vocalize PlayerVomitInFace"
+            "text"      "Yuck"
+        }
+        "NorthEast"
+        {
+            "command"   "vocalize PlayerDeath"
+            "text"      "Scream"
+        }
+        "East"
+        {
+            "command"   "vocalize PlayerAnswerLostCall"
+            "text"      "L4B/Selected Gives"
+        }
+        "SouthEast"
+        {
+            "command"   "say_team bots warp"
+            "text"      "L4B/All Bots Warp"
+        }
+        "South"
+        {
+            "command"   "say_team bots heal"
+            "text"      "L4B/All Bots Heal"
+        }
+        "SouthWest"
+        {
+            "command"   "vocalize AskForHealth2"
+            "text"      "L4B/Selected Heal Me"
+        }
+        "West"
+        {
+            "command"   "vocalize iMT_PlayerSuggestHealth"
+            "text"      "L4B/Selected Heal"
+        }
+        "NorthWest"
+        {
+            "command"   "vocalize CallForRescue"  
+            "text"      "Trapped" 
+        }
+    }
+
+    "Warning,Survivor,Alive"
+    {
+        "Center"
+        {
+            "command"   "vocalize PlayerIncoming"
+            "text"      "Horde"
+        }
+        "North"
+        {
+            "command"   "vocalize PlayerWarnTank"
+            "text"      "Tank"
+        }
+        "NorthEast"
+        {
+            "command"   "vocalize PlayerWarnBoomer"
+            "text"      "Boomer"
+        }
+        "East"
+        {
+            "command"   "vocalize PlayerWarnHunter"
+            "text"      "Hunter"
+        }
+        "SouthEast"
+        {
+            "command"   "vocalize PlayerWarnSmoker"
+            "text"      "Smoker"
+        }
+        "South"
+        {
+            "command"   "vocalize PlayerWarnWitch"
+            "text"      "Witch"
+        }
+        "SouthWest"
+        {
+            "command"   "vocalize PlayerWarnJockey"
+            "text"      "Jockey"
+        }
+        "West"
+        {
+            "command"   "vocalize PlayerWarnSpitter"
+            "text"      "Spitter"
+        }
+        "NorthWest"
+        {
+            "command"   "vocalize PlayerWarnCharger"
+            "text"      "Charger"
+        }
+    }
+
+	//--------------------------------------------------------------
+	"Orders,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+}

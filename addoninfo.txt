@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	addonSteamAppID 550
+	addontitle "Admin System Radial Menus Complete"
+	addonversion 2.0
+	addonauthor "Davide7097"
+	addonContent_Campaign 0
+	addonDescription "The most used Admin System commands into two radial menu. You need to bind the new radial menus in order to use them(ASRMa - ASRMb)."
+}
