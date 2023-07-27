@@ -181,8 +181,8 @@
         }
         "South"
         {
-            "command"   "say_team bots heal;"
-            "text"      "L4B/All Bots Heal"
+            "command"   "say_team bots wait;"
+            "text"      "L4B/Bots Wait"
         }
         "SouthWest"
         {
