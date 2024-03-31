@@ -157,47 +157,47 @@
         "Center"
         {
             "command"   "say_team bots cancel;"
-            "text"      "L4B2/Cancel Orders"
+            "text"      "Cancel Orders"
         }
         "North"
         {
             "command"   "say_team bot throw molotov;"
-            "text"      "L4B2/Molotov"
+            "text"      "Molotov"
         }
         "NorthEast"
         {
             "command"   "say_team bot throw bile;"
-            "text"      "L4B2/Bile Jar"
+            "text"      "Bile Jar"
         }
         "East"
         {
             "command"   "vocalize PlayerAnswerLostCall"
-            "text"      "L4B2/Selected Gives"
+            "text"      "Selected Gives"
         }
         "SouthEast"
         {
             "command"   "say_team bots warp;"
-            "text"      "L4B2/All Bots Warp"
+            "text"      "Bots Warp"
         }
         "South"
         {
             "command"   "say_team bots wait;"
-            "text"      "L4B2/Bots Wait"
+            "text"      "Bots Wait"
         }
         "SouthWest"
         {
             "command"   "vocalize AskForHealth2"
-            "text"      "L4B2/Selected Heal Me"
+            "text"      "Selected Heal Me"
         }
         "West"
         {
             "command"   "say_team bot carry;"
-            "text"      "L4B2/Carry This"
+            "text"      "Carry This"
         }
         "NorthWest"
         {
             "command"   "say_team bot throw pipe;"  
-            "text"      "L4B2/Pipe Bomb" 
+            "text"      "Pipe Bomb" 
         }
     }
 
