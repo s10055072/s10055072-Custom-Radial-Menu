@@ -35,8 +35,8 @@
 		}
 		"SouthWest"
 		{
-			"command"	"vocalize PlayerToTheRescue"
-			"text"		"#L4D_rosetta_totherescue"
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"Hurry Up"
 		}
 		"West"
 		{
@@ -45,8 +45,8 @@
 		}
 		"NorthWest"
 		{
-			"command"	"vocalize PlayerThisWay"
-			"text"		"This Way"
+			"command"	"vocalize PlayerFollowMe"
+			"text"		"Follow Me"
 		}	
 	}
 
@@ -103,7 +103,7 @@
 
 	//--------------------------------------------------------------
 	//--------------------------------------------------------------
-	"ASRMb"
+	"Admin"
 	{
 		"Center"
 		{
@@ -152,12 +152,12 @@
 		}	
 	}
 	
-    "Panic,Survivor,Alive"
+    "L4B,Survivor,Alive"
     {
         "Center"
         {
-            "command"   "vocalize RevivedByDefibrillator"
-            "text"      "Gasp"
+            "command"   "say_team bots cancel;"
+            "text"      "L4B2/Cancel Orders"
         }
         "North"
         {
@@ -191,7 +191,7 @@
         }
         "West"
         {
-            "command"   "say_team bot carry"
+            "command"   "say_team bot carry;"
             "text"      "L4B2/Carry This"
         }
         "NorthWest"
