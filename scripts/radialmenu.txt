@@ -161,43 +161,43 @@
         }
         "North"
         {
-            "command"   "vocalize PlayerVomitInFace"
-            "text"      "Yuck"
+            "command"   "say_team bot throw molotov;"
+            "text"      "L4B2/Molotov"
         }
         "NorthEast"
         {
-            "command"   "vocalize PlayerDeath"
-            "text"      "Scream"
+            "command"   "say_team bot throw bile;"
+            "text"      "L4B2/Bile Jar"
         }
         "East"
         {
             "command"   "vocalize PlayerAnswerLostCall"
-            "text"      "L4B/Selected Gives"
+            "text"      "L4B2/Selected Gives"
         }
         "SouthEast"
         {
             "command"   "say_team bots warp;"
-            "text"      "L4B/All Bots Warp"
+            "text"      "L4B2/All Bots Warp"
         }
         "South"
         {
             "command"   "say_team bots wait;"
-            "text"      "L4B/Bots Wait"
+            "text"      "L4B2/Bots Wait"
         }
         "SouthWest"
         {
             "command"   "vocalize AskForHealth2"
-            "text"      "L4B/Selected Heal Me"
+            "text"      "L4B2/Selected Heal Me"
         }
         "West"
         {
-            "command"   "vocalize iMT_PlayerSuggestHealth"
-            "text"      "L4B/Selected Heal"
+            "command"   "say_team bot carry"
+            "text"      "L4B2/Carry This"
         }
         "NorthWest"
         {
-            "command"   "vocalize CallForRescue"  
-            "text"      "Trapped" 
+            "command"   "say_team bot throw pipe;"  
+            "text"      "L4B2/Pipe Bomb" 
         }
     }
 
