@@ -1,8 +1,7 @@
-==This is personal use radial menu, based on "VOX" by c2 and "Admin System Radial Menus" by Davide7097==
-You will need "Admin System" and "Admin Menu 2.0" in order for some radial command to function properly
+==This is the custom radial menu for my personal use. Based on the main branch, reworked to work with L4B2 and other changes
 
-Mk2: I've added Left 4 Bots support, in "Panic" radial menu (Limited). You will need Left 4 Bots (and its associated item)!
-Commands for keybinding, you can execute them one by one or autoexec.cfg (if you don't have one, make a new one with exact name)
+Put the follwing command into autoexec.cfg. Create a new one in cfg folder if you don't have one.
+
 bind "b" "+mouse_menu Admin"
 bind "c" "+mouse_menu Warning"
 bind "g" "+mouse_menu QA"
