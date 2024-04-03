@@ -249,6 +249,57 @@
             "text"      "Charger"
         }
     }
+	
+
+    "BotCmds,Survivor,Alive"
+    {
+        "Center"
+        {
+            "command"   "scripted_user_func l4b,botselect"
+            "text"      "Select"
+        }
+        "North"
+        {
+            "command"   "say_team bots goto;"
+            "text"      "Go There"
+        }
+        "NorthEast"
+        {
+            "command"   "say_team bots lock;"
+            "text"      "Lock On"
+        }
+        "East"
+        {
+            "command"   "say_team bots come;"
+            "text"      "Come Here"
+        }
+        "SouthEast"
+        {
+            "command"   ""
+            "text"      ""
+        }
+        "South"
+        {
+            "command"   ""
+            "text"      ""
+        }
+        "SouthWest"
+        {
+            "command"   ""
+            "text"      ""
+        }
+        "West"
+        {
+            "command"   "say_team bots goto;"
+            "text"      "All Goto"
+        }
+        "NorthWest"
+        {
+            "command"   "say_team bots lock off;"  
+            "text"      "Lock Off" 
+        }
+    }
+
 
 	//--------------------------------------------------------------
 	"Orders,Zombie,Alive"
