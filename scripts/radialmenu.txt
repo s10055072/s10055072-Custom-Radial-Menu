@@ -261,7 +261,7 @@
         "North"
         {
             "command"   "say_team bots goto;"
-            "text"      "Go There"
+            "text"      "All Goto"
         }
         "NorthEast"
         {
@@ -271,7 +271,7 @@
         "East"
         {
             "command"   "say_team bots come;"
-            "text"      "Come Here"
+            "text"      "All Come"
         }
         "SouthEast"
         {
@@ -290,8 +290,8 @@
         }
         "West"
         {
-            "command"   "say_team bots goto;"
-            "text"      "All Goto"
+            "command"   "say_team bot hurry;"
+            "text"      "One Come"
         }
         "NorthWest"
         {
