@@ -275,18 +275,18 @@
         }
         "SouthEast"
         {
-            "command"   ""
-            "text"      ""
+            "command"   "say_team !l4b settings throw_molotov 0;"
+            "text"      "Molo. Off"
         }
         "South"
         {
-            "command"   ""
-            "text"      ""
+            "command"   "say_team bots destroy;"
+            "text"      "Destroy"
         }
         "SouthWest"
         {
-            "command"   ""
-            "text"      ""
+            "command"   "say_team !l4b settings throw_molotov 1;"
+            "text"      "Molo. On"
         }
         "West"
         {
