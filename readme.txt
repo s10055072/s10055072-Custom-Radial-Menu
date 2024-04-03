@@ -7,4 +7,5 @@ bind "c" "+mouse_menu Warning"
 bind "g" "+mouse_menu QA"
 bind "v" "+mouse_menu L4B"
 bind "z" "+mouse_menu Orders"
+bind "t" "+mouse_menu BotCmds"
 
