@@ -270,8 +270,8 @@
         }
         "East"
         {
-            "command"   "say_team bots hurry;"
-            "text"      "All Hurry"
+            "command"   "say_team bots automation;"
+            "text"      "Automation"
         }
         "SouthEast"
         {
