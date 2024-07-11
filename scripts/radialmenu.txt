@@ -157,7 +157,7 @@
         "Center"
         {
             "command"   "say_team bots cancel;"
-            "text"      "Cancel Orders"
+            "text"      "Cancel"
         }
         "North"
         {
@@ -270,7 +270,7 @@
         }
         "East"
         {
-            "command"   "say_team bots automation;"
+            "command"   "say_team bots automation all;"
             "text"      "Automation"
         }
         "SouthEast"
